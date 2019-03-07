@@ -83,7 +83,7 @@ syn keyword pythonInclude	from import
 " the operators. This must offcourse be revised to only contain the operators
 " that exists in python.
 syn match  pythonExtraOperator	 "\%([~!^&|]\|\%(class\s*\)\@<!<<\|<=>\|\%(<\|\<class\s\+\u\w*\s*\)\@<!<[^<]\@=\|=\~\|>>\|=\@<!>\|\*\*\|\.\.\.\|\.\.\|::\|=\)"
-syn match  pythonExtraOperator2	 "\%([*/%+-]\)"
+syn match  pythonExtraOperator2	 "\%([*/%+-.,]\)"
 syn match  pythonExtraPseudoOperator  "\%(-=\|/=\|\*\*=\|\*=\|&&=\|&=\|&&\|||=\||=\|||\|%=\|+=\|!\~\|!=\)"
 " syn match  pythonExtraPseudoOperator2  "\%(<\|>\|<=\|>=\|==\|===\)"
 syn match  pythonExtraPseudoOperator2  "[<>]"
