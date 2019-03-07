@@ -1,7 +1,7 @@
 Ajioy Vim Python 1.0
 =====================
 
-![Imgur](https://github.com/ajioy/storage/blob/master/python.png)
+![Imgur](https://raw.githubusercontent.com/ajioy/storage/master/python.png)
 
 This is my attempt to make the python syntax highlighting in Vim more beautiful
 
