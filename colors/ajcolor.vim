@@ -154,7 +154,7 @@ if &t_Co > 255
    hi DiffDelete      ctermfg=162 ctermbg=53
    hi DiffText                    ctermbg=102 cterm=bold
 
-   hi Directory       ctermfg=118               cterm=bold
+   hi Directory       ctermfg=80               cterm=none
    hi Error           ctermfg=219 ctermbg=89
    hi ErrorMsg        ctermfg=199 ctermbg=16    cterm=bold
    hi Exception       ctermfg=126               cterm=bold
@@ -259,4 +259,5 @@ if &t_Co > 255
    hi SpecialCharacter7 ctermfg=37                    
    hi SpecialCharacter8 ctermfg=37                    
 
+   hi NERDTreeTextFile ctermfg=40
 end " }}}
